@@ -12,4 +12,5 @@ When you double-click the PivotGrid cell, the [PivotGridControl.CellDoubleClick]
 You can also click the _Get Grand Total Data_ button to call the [PivotGridControl.CreateDrillDownDataSource](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPivotGrid.PivotGridControl.CreateDrillDownDataSource) method and display all data records that the PivotGridControl uses to show the summarized data.
 
 
-![screenshot](/images/screenshot.png)P
+![screenshot](/images/screenshot.png)
+
