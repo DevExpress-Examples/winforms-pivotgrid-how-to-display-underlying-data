@@ -27,7 +27,7 @@ namespace DrillDownDataSourceExample
                drillDownDataSource = e.CreateDrillDownDataSource(25, new List<string> { "ShipName" });
             else
                 drillDownDataSource = e.CreateDrillDownDataSource(25);
-            Form dataform = CreateDrillDownForm(drillDownDataSource);
+            XtraForm dataform = CreateDrillDownForm(drillDownDataSource);
             dataform.ShowDialog();
             dataform.Dispose();
         }
@@ -39,9 +39,8 @@ namespace DrillDownDataSourceExample
             SetPivotGridDataSource();
         }
 
-        private Form CreateDrillDownForm(PivotDrillDownDataSource dataSource) {
-            Form form = new Form();
-            form.Text = "Underlying Data";
+        private XtraForm CreateDrillDownForm(PivotDrillDownDataSource dataSource) {
+            XtraForm form = new XtraForm();
             GridControl grid = new GridControl();
             grid.Parent = form;
             grid.Dock = DockStyle.Fill;

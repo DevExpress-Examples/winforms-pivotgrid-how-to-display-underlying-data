@@ -26,7 +26,7 @@ Namespace DrillDownDataSourceExample
 			Else
 				drillDownDataSource = e.CreateDrillDownDataSource(25)
 			End If
-			Dim dataform As Form = CreateDrillDownForm(drillDownDataSource)
+			Dim dataform As XtraForm = CreateDrillDownForm(drillDownDataSource)
 			dataform.ShowDialog()
 			dataform.Dispose()
 		End Sub
@@ -37,9 +37,8 @@ Namespace DrillDownDataSourceExample
 			SetPivotGridDataSource()
 		End Sub
 
-		Private Function CreateDrillDownForm(ByVal dataSource As PivotDrillDownDataSource) As Form
-			Dim form As New Form()
-			form.Text = "Underlying Data"
+		Private Function CreateDrillDownForm(ByVal dataSource As PivotDrillDownDataSource) As XtraForm
+			Dim form As New XtraForm()
 			Dim grid As New GridControl()
 			grid.Parent = form
 			grid.Dock = DockStyle.Fill
