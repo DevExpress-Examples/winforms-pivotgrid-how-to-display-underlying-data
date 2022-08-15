@@ -11,7 +11,7 @@ This example demonstrates how to obtain the records from the control's underlyin
 
 ## Files to Look at
 
-[Form1.cs](./CS/DrillDownDataSourceExample/Form1.cs)/[Form1.vb](./VB/DrillDownDataSourceExample/Form1.vb)
+[Form1.cs](./CS/DrillDownDataSourceExample/Form1.cs) ([Form1.vb](./VB/DrillDownDataSourceExample/Form1.vb))
 ## Example Overview
 
 The data in this example are contained in the Northwind database in the SQL Server data file _NW.mdf_. The application can use the [BindingSource component](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.bindingsource) or the [LinqServerModeDataSource](https://docs.devexpress.com/AspNet/DevExpress.Data.Linq.LinqServerModeDataSource) instance to retrieve the data from the database. A LinqServerModeDataSource data source is a queryable data source, and it forces the PivotGrid to operate in server mode. Use the _Server Mode_ [toggle switch control](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.ToggleSwitch) to switch from one data source to another.
