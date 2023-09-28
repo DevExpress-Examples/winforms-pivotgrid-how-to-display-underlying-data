@@ -9,7 +9,7 @@ This example demonstrates how to obtain the records from the control's underlyin
 
 ![screenshot](/images/screenshot.png)
 
-## Files to Look at
+## Files to Review
 
 [Form1.cs](./CS/DrillDownDataSourceExample/Form1.cs) ([Form1.vb](./VB/DrillDownDataSourceExample/Form1.vb))
 ## Example Overview
